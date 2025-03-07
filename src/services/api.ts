@@ -2,7 +2,7 @@ import axios from 'axios';
 import { useAuth } from '../contexts/AuthContext';
 
 const api = axios.create({
-  baseURL: import.meta.env.VITE_API_BASE_URL, // Use environment variables
+  baseURL: import.meta.env.PUBLIC_TASK_MANAGEMENT_API_URL
 });
 
 api.interceptors.request.use((config) => {

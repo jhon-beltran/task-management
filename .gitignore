@@ -12,6 +12,8 @@ dist/
 !.vscode/extensions.json
 .idea
 
+.env
+
 .DS_STORE
 node_modules
 scripts/flow/*/.flowconfig
